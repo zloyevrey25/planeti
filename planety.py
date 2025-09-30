@@ -31,7 +31,7 @@ class Circle(QFrame):
     def paintEvent(self, event):
         painter = QPainter(self)
         painter.setRenderHint(QPainter.RenderHint.Antialiasing)
-        painter.setOpacity(0.5)
+        painter.setOpacity(0.75)
         brush = QBrush(QColor(self.color))
         painter.setBrush(brush)
         painter.setPen(Qt.PenStyle.NoPen)
@@ -45,7 +45,7 @@ class Circle(QFrame):
 class Window(QFrame):
     def __init__(self, app_obj: QApplication):
         super().__init__()
-        self.setStyleSheet("background-color: rgb(64, 64, 64);")
+        self.setStyleSheet("background-color: rgb(255, 255, 255);")
         height = app_obj.primaryScreen().availableGeometry().height()
         self.resize(int(height * 0.6), int(height * 0.6))
         self.setWindowTitle("Планеты")
