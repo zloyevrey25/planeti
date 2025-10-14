@@ -1,49 +1,49 @@
 {
   "planets": [
     {
-      "color": "rgb : (254, 232, 188)",
-      "size": 70,
-      "radius": 50,
-      "angle_speed": 0.5,
-      "self_rot_speed": 10
+      "color": "yellow",
+      "size": 170,
+      "radius": 0,
+      "angle_speed": 0,
+      "self_rot_speed": 0
     },
     {
-      "color": "rgb : (230, 203, 170)",
+      "color": "magenta",
       "size": 60,
       "radius": 110,
       "angle_speed": 0.75,
       "self_rot_speed": 8
     },
     {
-      "color": "rgb : (252, 221, 199)",
+      "color": "darkGreen",
       "size": 56,
       "radius": 120,
       "angle_speed": 1.0,
       "self_rot_speed": 7
     },
     {
-      "color": "rgb : (230, 186, 170)",
+      "color": "darkYellow",
       "size": 64,
       "radius": 130,
       "angle_speed": 1.2,
       "self_rot_speed": 5
     },
     {
-      "color": "rgb : (254, 196, 188)",
+      "color": "darkGray",
       "size": 42,
       "radius": 140,
       "angle_speed": 1.5,
       "self_rot_speed": 6.6
     },
     {
-      "color": "rgb : (236, 204, 175)",
+      "color": "darkBlue",
       "size": 80,
       "radius": 150,
       "angle_speed": 1.8,
       "self_rot_speed": 7.1
     },
     {
-      "color": "rgb : (212, 177, 157)",
+      "color": "darkRed",
       "size": 18,
       "radius": 100,
       "angle_speed": 2.0,
